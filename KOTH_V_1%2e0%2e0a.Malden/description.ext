@@ -1,0 +1,27 @@
+author = "W01 R. DeMoss, Krill";
+onLoadName = "KOTH - Build Protoype-1.0.0";
+onLoadMission = "KOTH";
+disableAI = 1;
+enableDebugConsole = 2;
+
+respawn = 2;
+respawnDelay = 0;
+respawnDialog = 0;
+respawnOnStart = 1;
+
+class cfgFunctions
+{
+  class KOTH
+  {
+    class core
+    {
+      file = "core";
+      class Misc {};
+    }
+    class KeyChain
+    {
+      file = "keychain";
+      class keychain {};
+    }
+  }
+}
